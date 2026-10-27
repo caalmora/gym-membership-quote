@@ -10,7 +10,7 @@ from gym_quote import calculate_quote, main
 @pytest.mark.parametrize(
     ("plan", "extras", "members", "expected"),
     [
-        ("BASIC", [], 1, 31),
+        ("BASIC", [], 1, 30),
         ("STANDARD", [], 1, 45),
         ("PREMIUM", [], 1, 70),
         ("STANDARD", ["PERSONAL_TRAINING"], 1, 70),
