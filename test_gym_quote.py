@@ -125,3 +125,7 @@ def test_console_cancellation_displays_minus_one(monkeypatch, capsys):
     output = capsys.readouterr().out
     assert "Cotización cancelada" in output
     assert "Total: -1" in output
+
+
+
+# Verificación de integración continua mediante GitHub Actions.
